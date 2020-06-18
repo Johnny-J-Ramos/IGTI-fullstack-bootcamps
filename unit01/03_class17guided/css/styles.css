@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Righteous&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+h1,
+h5,
+h6 {
+  font-family: 'Righteous', sans-serif;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+
+  border-radius: 50%;
+}
+
+.country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add {
+  border-radius: 50%;
+  background-color: darkgreen;
+  color: white;
+  font-weight: bold;
+}
+
+.countries-list,
+.favorites-list {
+  padding: 5px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  margin: 0 10px;
+}
